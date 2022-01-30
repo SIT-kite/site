@@ -1,46 +1,627 @@
-<h1>�û�Э�����˽����</h1>
+<!doctype html>
+<html style='font-size:17px !important'>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>LICENSE</title><link href='https://fonts.loli.net/css?family=Merriweather:900,900italic,300,300italic&subset=latin-ext' rel='stylesheet' type='text/css' /><link href='https://fonts.loli.net/css?family=Lato:900,300&subset=latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+svg[id^="mermaidChart"] { line-height: 1em; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 
-<p>��������Ϊ����ӦС���ݡ������¼�ơ�С���ݡ��������Ϻ�Ӧ�ü�����ѧ�װ๤��վ��ͬѧ�����������װ๤��վΪ�俪������Ӫ�Ŷӣ���չ��ά����������С���ݵķ������Ϻ�Ӧ�ü�����ѧ<strong>У��վ��</strong>
-�����¼�ơ�У԰��������С����<strong>�����Ŷ�</strong>��*<em>������</em>*��Ϣ�ṩ�̣����������ݷ����̣���ͬ�ṩ��ʹ�ñ����������������Ⲣͬ���������ݣ�</p>
 
-<h2>У԰������</h2>
+@include-when-export url(https://fonts.loli.net/css?family=Merriweather:900,900italic,300,300italic&subset=latin-ext);
+@include-when-export url(https://fonts.loli.net/css?family=Lato:900,300&subset=latin-ext);
 
-<p>У԰������ͨ��λ�� <code>.sit.edu.cn</code> �����£����Ϻ�Ӧ�ü�����ѧ�ٷ���Ӫ���ṩ��С����<strong>��</strong>�������Ŀɷ�������<strong>�κα�֤</strong>
-�����޷���֤�����ݵ�׼ȷ�ԡ�������У԰��������ص�����ʱ���뼰ʱ��ϵ�йز��Ŵ�����</p>
+:root {
+	--control-text-color: #777;
+}
 
-<p>��ί��С����ʹ������������Ϣ����<strong>�û�����</strong>��User agent���Ľ�ɫ����У԰��վ���Ա�Ϊ�������ڴ˹����У�С����ֻ�Ὣ����������Ϣ���͵���Ҫ���ʵ�У԰��վ�㣬��<strong>����</strong>
-�ϴ��������Ŷӣ����κε�����������С�����ϲ�ѯ������Ϣ����������У԰�����Ѻͳɼ���Ϣ����<strong>����</strong>�뿪�����豸�������ŶӺ͵�������<strong>������</strong>�����Щ��Ϣ��</p>
+/**
+ * forked from pixyll.com
+ * MIT license
+ */
 
-<p>������˽�������Ϻ�Ӧ�ü�����ѧ�ɼ���С���ݽ��ھ��������������ȡ�������ݣ���С���ݶ�����У԰�������ݵĲ���<strong>�����ڡ���ȡ��</strong>��</p>
+h1,
+.h1,
+.f1 {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+h2,
+.h2,
+.f2 {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+h3,
+.h3,
+.f3 {
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+}
+p,
+.p,
+.f4,
+h4,
+h5,
+h6,
+dl,
+ol,
+ul,
+pre[cid],
+div[cid],
+#typora-source {
+	font-size: 1.125rem;
+	line-height: 1.5rem;
+}
 
-<h2>�������������</h2>
+h4 {
+	font-size: 1.13rem;
+}
+/*
+ Pixyll
+ A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff.
+ Best served with BASSCSS (http://jxnblk.github.io/basscss)
+ Crafted with <3 by John Otander (@4lpine) - ©2015 John Otander MIT License http://opensource.org/licenses/MIT
 
-<p>С����Ĭ�ϴӵ�������ȡ������Ϣ�����Ǵ�����Ϣ��ͨ��С���ݵķ�������ת�ġ������������Ϣ�ṩ�̲������κ������豸�йص���Ϣ��С����<strong>��</strong>�Դ������ݵ�׼ȷ�ԡ�ʱЧ�����κα�֤��</p>
+*/
 
-<h2>С����</h2>
+body {
+	font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", "STSong", Serif;
+	line-height: 1.5rem;
+	font-weight: 400;
+}
 
-<p>С���������ṩ�ķ��񣨵�ǰ��δ��������ʧ�����졢�����齻�ס��羰ǽ����Ӧ wiki �ȡ�</p>
+#write {
+	max-width: 914px;
+	color: #333;
+}
 
-<p>Ĭ������£�����ʹ���κ�С�����ṩ�ķ������С���ݽ��������ݴ洢�ڱ��أ������ϴ����κη�������<strong>����</strong>������������⣺</p>
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1100px;
+	}
+}
 
-<ol>
-<li>������ʼʹ��С���ݵķ����ұ���<strong>ʵ��</strong>����ض����ܣ��紺��ɨ�������������飩ʱ��С���ݽ�����ͬ�������£�ʹ������<strong>У԰����ƾ��</strong>
-����֤����������Ϣ���ҽ�����ͨ����¼��֤����һ��ʩ��Ŀ���Ǳ����û���Ϣ��ȫ����ֹ�����û�α��������Ϣ������Ʒ��С����<strong>��</strong>�����ݿ��д洢������ѧ����Ϣ����<strong>����</strong>�洢�κ������˻����롣</li>
-<li>���ڲ���ַ���С���ݽ�����ͬ���ǰ����<strong>�ϴ�</strong>�ɼ���¼��������ط��ɹ涨�����ϴ�ǰ�����κο����ƶϳ������ݵ���Ϣ���й�ϣ����������¼�������ϴ���Ϊ����������ʱ�鿴��</li>
-</ol>
+@media only screen and (min-width: 1700px) {
+	#write {
+		max-width: 1200px;
+	}
+}
 
-<p>С���ݲ������κ��޹ص������ṩ�����ۡ����⡢�����������ĸ�����Ϣ���������ȵõ��������ɣ���õ�������С���ݵ�����ͬΪ���ṩ�������ڸ÷���������佫����ֹ���ʰ�������ǰ�ܹ����ʵ�������Щ���ϡ�С�����಻�����κε��������κ��ֶ��ռ����༭�����ۻ����޳��������ĸ�����Ϣ���κ�С����ƽ̨�û�������������һ�����֣�С�����Ŷ���Ȩ������ֹ����û��ķ���Э�顣</p>
+img {
+	width: auto;
+	max-width: 100%;
+}
+body {
+	font-size: 1.5rem;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
 
-<p>С���ݾ�����֤��Ϊ���ṩ����ʱ�����������ɡ�<strong>��</strong>����ʹ��С�����ṩ�ķ���ʱ����Ҳ��һ��������</p>
+.ty-table-edit {
+	background: #ededed;
+}
 
-<ol>
-<li>����С����ƽ̨�Ϸ������κ���Ϣ��<strong>����</strong>���Ϸ��ɺ͵���Լ����������ṫ�����ף����������ˣ�������������Ϣ��ά��ͬѧ����ȶ��Žᣬ����ս�������������ݵ���Ϣ������ҥ��</li>
-<li>��������С�����Ϸ����漰����������ص����ۻ򷢲�ɫ����Ϣ��</li>
-<li>�����������������������û����ʵ����ݡ�</li>
-</ol>
+table {
+	width: 100%;
+	font-size: 1.125rem;
+}
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td,
+table > tfoot > tr > th,
+table > tfoot > tr > td {
+	padding: 12px;
+	line-height: 1.2;
+	vertical-align: top;
+	border-top: 1px solid #333;
+}
+table > thead > tr > th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #333;
+}
+table > caption + thead > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > th,
+table > thead:first-child > tr:first-child > td {
+	border-top: 0;
+}
+table > tbody + tbody {
+	border-top: 2px solid #333;
+}
+p {
+	font-weight: 300;
+	line-height: 1.5;
+}
+abbr {
+	border-bottom: 1px black dotted;
+	cursor: help;
+}
+pre,
+code {
+	font-family: Menlo, Monaco, "Courier New", monospace;
+}
 
-<p>С������Ȩ��Υ��ƽ̨Ҫ����˺Ž��з������¼��Ӧѧ�ţ��ƽ���ز��Ŵ�����</p>
+code,
+.md-fences  {
+	color: #7a7a7a;
+}
 
-<h2>���ڱ�Э��</h2>
+.md-fences {
+	padding: 1.125em;
+	margin-bottom: 0.88em;
+	font-size: 1rem;
+	border: 1px solid #7a7a7a;
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}
 
-<p>��Э�����ʱ�����ǻ���ʾ����������ܾ���������ϵ����ɾ���й����ĵ�¼������Ϣ����ַ������У����ѧ�������309��</p>
+blockquote {
+	padding: 1.33em;
+	font-style: italic;
+	border-left: 5px solid #7a7a7a;
+	color: #555;
+}
+blockquote em {
+	color: #000;
+}
+blockquote footer {
+	font-size: .85rem;
+	font-style: normal;
+	background-color: #fff;
+	color: #7a7a7a;
+	border-color: transparent;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 1em 0 0.5em;
+}
+@media screen and (min-width: 48em) {
+	.h1,
+	h1 {
+		font-size: 3.250rem;
+	}
+	.h2,
+	h2 {
+		font-size: 2.298rem;
+	}
+	.h3,
+	h3 {
+		font-size: 1.625rem;
+	}
+	.h4,
+	h4 {
+		font-size: 1.3rem;
+	}
+	#write>h4.md-focus:before,
+	#write>h5.md-focus:before,
+	#write>h6.md-focus:before{
+		top: 1px;
+	}
+	.p,
+	p,
+	li {
+		font-size: 1.25rem;
+		line-height: 1.8;
+	}
+	table {
+		font-size: 1.25rem;
+	}
+}
+@media (max-width: 48em) {
+	blockquote {
+		margin-left: 1rem;
+		margin-right: 0;
+		padding: 0.5em;
+	}
+	.h1,
+	h1 {
+		font-size: 2.827rem;
+	}
+	.h2,
+	h2 {
+		font-size: 1.999rem;
+	}
+	.h3,
+	h3 {
+		font-size: 1.413rem;
+	}
+	.h4,
+	h4 {
+		font-size: 1.3rem;
+	}
+}
+@media screen and (min-width: 64em) {
+	.h1,
+	h1 {
+		font-size: 4.498rem;
+	}
+	.h2,
+	h2 {
+		font-size: 2.29rem;
+	}
+	.h3,
+	h3 {
+		font-size: 1.9rem;
+	}
+	.h4,
+	h4 {
+		font-size: 1.591rem;
+	}
+	#write>h4.md-focus:before{
+		top:4px;
+	}
+}
+a {
+	color: #463F5C;
+	text-decoration: underline;
+}
+
+#write {
+	padding-top: 2rem;
+}
+
+#write pre.md-meta-block {
+	min-height: 35px;
+	padding: 0.5em 1em;
+	white-space: pre;
+	border: 0px;
+
+	border-left: 30px #f8f8f8 solid;
+	border-right: 30px #f8f8f8 solid;
+	width: 100vw;
+	max-width: calc(100% + 60px);
+
+	margin-left: -30px;
+	margin-bottom: 2em;
+	margin-top: -2010px;
+	padding-top: 2000px;
+	padding-bottom: 10px;
+	line-height: 1.5em;
+	color: #7a7a7a;
+	background-color: #fafafa;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 300;
+	clear: both;
+	padding-left: 0;
+	font-size:1.125rem;
+}
+.md-image>.md-meta {
+	color: #463F5C
+}
+.footnotes {
+	font-size:1.1rem;
+}
+.md-tag {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.code-tooltip {
+	background: white;
+}
+.code-tooltip-content {
+	font-size: 1.1rem;
+}
+
+.task-list{
+	padding-left: 0;
+}
+
+.md-task-list-item {
+	padding-left:34px;
+}
+
+.md-task-list-item > input{
+	width: 1.25rem;
+	height: 1.25rem;
+	display: block;
+	-webkit-appearance: initial;
+	top: -0.2rem;
+	margin-left: -1.6em;
+	margin-top: calc(1rem - 7px);
+	border: none;
+}
+
+.md-task-list-item > input:focus{
+	outline: none;
+	box-shadow: none;
+}
+
+.md-task-list-item > input:before{
+	border: 1px solid #555;
+	border-radius: 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: #fff;
+	content: ' ';
+	transition: background-color 200ms ease-in-out;
+	display: block;
+}
+
+.md-task-list-item > input:checked:before,
+.md-task-list-item > input[checked]:before{
+	background: #333;
+	border-width: 2px;
+	display:inline-block;
+	transition: background-color 200ms ease-in-out;
+}
+
+.md-task-list-item > input:checked:after,
+.md-task-list-item > input[checked]:after {
+	opacity: 1;
+}
+
+.md-task-list-item > input:after {
+	opacity: 1;
+	-webkit-transition: opacity 0.05s ease-in-out;
+	-moz-transition: opacity 0.05s ease-in-out;
+	transition: opacity 0.05s ease-in-out;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	position: absolute;
+	top: 0.4375rem;
+	left: 0.28125rem;
+	width: 0.9375rem;
+	height: 0.5rem;
+	border: 3px solid #fff;
+	border-top: 0;
+	border-right: 0;
+	content: ' ';
+	opacity: 0;
+}
+
+.md-tag {
+	color:inherit;
+}
+
+.md-toc:focus .md-toc-content{
+	margin-top: 19px;
+}
+
+#typora-sidebar {
+	font-size:1rem !important;
+}
+
+.html-for-mac #typora-sidebar {
+	background-color:white;
+}
+
+.outline-content li, .outline-content ul {
+	font-size:1rem !important;
+}
+
+.outline-title {
+	line-height: inherit;
+	margin-top: 10px;
+}
+
+.outline-expander {
+	width: 18px;
+}
+
+.outline-expander:before {
+ 	content: "+";
+	font-family: inherit;
+	color: rgb(108, 108, 108); 
+  	font-size: 1.5rem;
+ 	top: 0.1rem;
+}
+
+.outline-expander:hover:before {
+	content: "+";
+}
+
+.outline-item-open>.outline-item>.outline-expander:before{
+	content: "-";
+}
+
+/** source code mode */
+#typora-source {
+	font-family: Courier, monospace;
+    color: #6A6A6A;
+}
+
+.os-windows #typora-source {
+	font-family: inherit;
+}
+
+.cm-s-typora-default .cm-header, 
+.cm-s-typora-default .cm-property,
+.CodeMirror.cm-s-typora-default div.CodeMirror-cursor {
+	color: #428bca;
+}
+
+.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
+	color: #777777;
+}
+
+.md-diagram-panel {
+	margin-top: 24px;
+	margin-left: -1.2em;
+}
+
+.md-mathjax-midline {
+	background: #fafafa;
+}
+
+.enable-diagrams pre.md-fences[lang="sequence"] .code-tooltip,
+.enable-diagrams pre.md-fences[lang="flow"] .code-tooltip,
+.enable-diagrams pre.md-fences[lang="mermaid"] .code-tooltip {
+    bottom: -3.4em;
+}
+
+.dropdown-menu .divider {
+	border-color: #e5e5e5;
+}
+
+
+</style>
+</head>
+<body class='typora-export os-windows' >
+<div  id='write'  class = ' first-line-indent'><h1><a name="上应小风筝用户协议和隐私政策" class="md-header-anchor"></a><span>上应小风筝用户协议和隐私政策</span></h1><p><span>首先，感谢您使用我们的产品。本页面分别阐述了我们的 “</span><a href='#上应小风筝-用户协议'><span>用户协议</span></a><span>” 和 “</span><a href='#上应小风筝-隐私政策'><span>隐私政策</span></a><span>”，您应当仔细阅读本页面上的内容。</span></p><h2><a name="上应小风筝-用户协议" class="md-header-anchor"></a><span>《“上应小风筝” 用户协议》</span></h2><p><span>本软件名为“</span><strong><span>上应小风筝</span></strong><span>”（以下简称“小风筝”），由 </span><strong><span>上海应用技术大学易班工作站</span></strong><span> 的同学主导开发，易班工作站为其开发和运营团队，发展和维护本软件。小风筝的服务由上海应用技术大学</span><strong><span>校内站点</span></strong><span> （以下简称“校园网”）、小风筝</span><strong><span>开发团队</span></strong><span>及</span><strong><span>第三方</span></strong><span>信息提供商（如天气数据服务商）共同提供。使用本软件，代表您理解并同意以下内容：</span></p><h3><a name="校园网服务" class="md-header-anchor"></a><span>校园网服务</span></h3><p><span>校园网服务（通常位于 </span><code>.sit.edu.cn</code><span> 域名下）由上海应用技术大学官方运营和提供，小风筝</span><strong><span>不</span></strong><span>对其服务的可访问性做</span><strong><span>任何保证</span></strong><span> ，亦无法保证其数据的准确性。当遇到校园网服务相关的问题时，请及时联系有关部门处理。</span></p><p><span>您委托小风筝使用您的身份信息、以</span><strong><span>用户代理</span></strong><span>（User agent）的角色访问校园网站点以便为您服务。在此过程中，小风筝只会将您的身份信息发送到您要访问的校园网站点，并</span><strong><span>不会</span></strong><span> 上传给开发团队，或任何第三方。您在小风筝上查询到的信息（例如您的校园卡消费和成绩信息）都</span><strong><span>不会</span></strong><span>离开您的设备，开发团队和第三方均</span><strong><span>不可能</span></strong><span>获得这些信息。</span></p><p><span>您的隐私数据由上海应用技术大学采集，小风筝仅在经过您的允许后读取有限数据，且小风筝对您在校园网上数据的操作</span><strong><span>仅限于“读取”</span></strong><span>。</span></p><h3><a name="第三方服务相关" class="md-header-anchor"></a><span>第三方服务相关</span></h3><p><span>小风筝默认从第三方获取天气信息，但是此类信息是通过小风筝的服务器中转的。因而，天气信息提供商不会获得任何与您设备有关的信息。小风筝</span><strong><span>不</span></strong><span>对此类数据的准确性、时效性做任何保证。</span></p><h3><a name="小风筝" class="md-header-anchor"></a><span>小风筝</span></h3><p><span>小风筝自身提供的服务（当前或未来）包括失物招领、二手书交易、风景墙、上应 wiki 等。</span></p><p><span>默认情况下，您不使用任何小风筝提供的服务，因而小风筝将您的数据存储在本地，不会上传至任何服务器。</span><strong><span>但是</span></strong><span>，如下情况除外：</span></p><ol><li><span>当您开始使用小风筝的服务，且必须</span><strong><span>实名</span></strong><span>完成特定功能（如春节扫福、发布二手书）时，小风筝将在您同意的情况下，使用您在</span><strong><span>校园网的凭据</span></strong><span> 以认证您的身份信息，且仅限于通过登录认证。这一措施的目的是保护用户信息安全，防止恶意用户伪造身份信息发布商品，小风筝</span><strong><span>会</span></strong><span>在数据库中存储您定的学号信息，但</span><strong><span>不会</span></strong><span>存储任何您的账户密码。</span></li><li><span>对于查给分服务，小风筝将在您同意的前提下</span><strong><span>上传</span></strong><span>成绩记录。根据相关法律规定，在上传前将对任何可以推断出您身份的信息进行哈希处理，并记录自身的上传行为，您可以随时查看。</span></li></ol><p><span>小风筝不会向任何无关第三方提供、出售、出租、分享或交易您的个人信息，除非事先得到您的许可，或该第三方和小风筝单独或共同为您提供服务，且在该服务结束后，其将被禁止访问包括其以前能够访问的所有这些资料。小风筝亦不允许任何第三方以任何手段收集、编辑、出售或者无偿传播您的个人信息。任何小风筝平台用户如从事上述活动，一经发现，小风筝团队有权立即终止与该用户的服务协议。</span></p><p><span>小风筝尽力保证在为您提供服务时您的言论自由。</span><strong><span>但</span></strong><span>您在使用小风筝提供的服务时，您也有一定的义务：</span></p><ol><li><span>您在小风筝平台上发布的任何信息，</span><strong><span>必须</span></strong><span>符合法律和道德约束，遵守社会公序良俗，不辱骂他人，不传播不良信息。维护同学间的稳定团结，不引战，不传播无依据的消息，不造谣。</span></li><li><span>您不能在小风筝上发布涉及国内政治相关的言论或发布色情信息。</span></li><li><span>不发布其他可能引起其他用户不适的内容。</span></li></ol><p><span>小风筝有权对违反平台要求的账号进行封禁，记录对应学号，移交相关部门处理。</span></p><h3><a name="关于本协议" class="md-header-anchor"></a><span>关于本协议</span></h3><p><span>当协议更新时，我们会提示您。如果您拒绝，可以联系我们删除有关您的登录关联信息。地址：奉贤校区大学生活动中心309室</span></p><p>&nbsp;</p><h2><a name="上应小风筝-隐私政策" class="md-header-anchor"></a><span>《“上应小风筝” 隐私政策》</span></h2><p><span>欢迎您访问我们的产品。 </span></p><p><span>上应小风筝 （包括App等产品提供的服务，以下简称“产品和服务”）是由  </span><strong><span>上海应用技术大学 易班工作站</span></strong><span> （以下简称“我们”）开发并运营的。 确保用户的数据安全和隐私保护是我们的首要任务， 本隐私政策载明了您访问和使用我们的产品和服务时所收集的数据及其处理方式。  请您在继续使用我们的产品前务必认真仔细阅读并确认充分理解本隐私政策全部规则和要点， 一旦您选择使用，即视为您同意本隐私政策的全部内容，同意我们按其收集和使用您的相关信息。</span></p><p><span> 如您在在阅读过程中，对本政策有任何疑问，可联系我们的客服咨询， 请通过  </span><strong><a href='mailto:kite@sunnysab.cn' target='_blank' class='url'>kite@sunnysab.cn</a></strong><span> 或产品中的反馈方式与我们取得联系。 如您不同意相关协议或其中的任何条款的，您应停止使用我们的产品和服务。 </span></p><p><span> 本隐私政策帮助您了解以下内容：</span></p><p><span> 一、我们如何收集和使用您的个人信息；</span></p><p><span>二、我们如何存储和保护您的个人信息；</span></p><p><span>三、我们如何共享、转让、公开披露您的个人信息；</span></p><h3><a name="一我们如何收集和使用您的个人信息" class="md-header-anchor"></a><span>一、我们如何收集和使用您的个人信息</span></h3><p><span>个人信息是指以电子或者其他方式记录的能够单独或者与其他信息， 结合识别特定自然人身份或者反映特定自然人活动情况的各种信息。 我们根据《中华人民共和国网络安全法》和《信息安全技术个人信息安全规范》（GB/T 35273-2017） 以及其它相关法律法规的要求，并严格遵循正当、合法、必要的原则， 出于您使用我们提供的服务和/或产品等过程中而收集和使用您的个人信息。  为接受我们全面的产品服务，您应首先注册一个用户账号，我们将通过它记录相关的数据。 您所提供的所有信息均来自于您本人在注册时提供的数据。 您准备使用的账户名、密码、您本人的联系方式， 我们可能通过发短信或者邮件的方式来验证您的身份是否有效。  </span></p><h3><a name="二我们如何存储和保护您的个人信息" class="md-header-anchor"></a><span>二、我们如何存储和保护您的个人信息 </span></h3><p><span>作为一般规则，我们仅在实现信息收集目的所需的时间内保留您的个人信息。 我们会在对于管理与您之间的关系严格必要的时间内保留您的个人信息 （例如，当您开立帐户，从我们的产品获取服务时）。 出于遵守法律义务或为证明某项权利或合同满足适用的诉讼时效要求的目的， 我们可能需要在上述期限到期后保留您存档的个人信息，并且无法按您的要求删除。  当您的个人信息对于我们的法定义务或法定时效对应的目的或档案不再必要时， 我们确保将其完全删除或匿名化。  如果您确认不再使用我们的产品和服务，并按照要求主动注销了您的账户，所有信息将被完全删除。  值得一提的是，为了加强对隐私数据的保护，我们在收集时就已对其进行了脱敏处理， 即使在我们自己的数据库中，也不会储存具有关联性的、明文的隐私数据。  </span></p><h3><a name="三我们如何共享转让公开披露您的个人信息" class="md-header-anchor"></a><span>三、我们如何共享、转让、公开披露您的个人信息</span></h3><p><span>在管理我们的日常业务活动所需要时，为追求合法利益以更好地服务客户， 我们将合规且恰当的使用您的个人信息。出于对业务和各个方面的综合考虑， 我们仅自身使用这些数据，不与任何第三方分享。  我们可能会根据法律法规规定，或按政府主管部门的强制性要求，对外共享您的个人信息。 在符合法律法规的前提下，当我们收到上述披露信息的请求时，我们会要求必须出具与之相应的法律文件，如传票或调查函。 我们坚信，对于要求我们提供的信息，应该在法律允许的范围内尽可能保持透明。  在以下情形中，共享、转让、公开披露您的个人信息无需事先征得您的授权同意： </span></p><ol><li><span>与国家安全、国防安全直接相关的；</span></li></ol><ol start='2' ><li><span>与犯罪侦查、起诉、审判和判决执行等直接相关的；</span></li></ol><ol start='3' ><li><span>出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；</span></li></ol><ol start='4' ><li><span>您自行向社会公众公开的个人信息；</span></li></ol><ol start='5' ><li><span>从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道。</span></li></ol><ol start='6' ><li><span>根据个人信息主体要求签订和履行合同所必需的；</span></li></ol><ol start='7' ><li><span>用于维护所提供的产品或服务的安全稳定运行所必需的，例如发现、处置产品或服务的故障；</span></li></ol><ol start='8' ><li><span>法律法规规定的其他情形。</span></li></ol></div>
+</body>
+</html>
