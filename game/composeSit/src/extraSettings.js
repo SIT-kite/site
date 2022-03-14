@@ -32,7 +32,7 @@ let fruitQTan = 0.1;
 let fruitSlowDown = false;
 
 // 点击右上方图标更换水果：false 改为 true 即可
-let clickChangeFruit = true;
+let clickChangeFruit = false;
 
 // 广告链接：false 或为空字符串表示不会跳转到广告
 let adLink = '';
