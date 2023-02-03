@@ -31,7 +31,7 @@ jobs:
 
   notification:
     runs-on: ubuntu-latest
-    needs: build
+    needs: deploy
     if: always()
     steps:
       - uses: technote-space/workflow-conclusion-action@v2
