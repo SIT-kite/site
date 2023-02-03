@@ -24,7 +24,7 @@ jobs:
         with:
           access_key: ${{ secrets.QINIU_ACCESS_KEY }}
           secret_key: ${{ secrets.QINIU_SECRET_KEY }}
-          bucket: ${{ secrets.QINIU_BUCKET_INDEX_SITE }}
+          bucket: ${{ secrets.QINIU_BUCKET_SITE }}
           source_dir: "./build"
           dest_dir: "/"
           ignore_source_map: true
